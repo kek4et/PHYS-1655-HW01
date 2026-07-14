@@ -1,0 +1,200 @@
+    3  git config --global user.name "Evan Cagnina"
+    4  git config --global user.email kek4et@virginia.edu
+    5  https://github.com/kek4et/PHYS1655-Class02.git
+    6  git config --global user.name kek4et
+    7  https://github.com/kek4et/PHYS1655-Class02.git
+    8  git@github.com:kek4et/PHYS1655-Class02.git
+    9  cd
+   10  pwd
+   11  cd 1655
+   12  ls
+   13  cd in_class
+   14  git@github.com:kek4et/PHYS1655-Class02.git
+   15  git@github.com:PHYS1655Su26/Class02.git
+   16  git@github.com:PHYS1655Su26/Class02-kek4et.git
+   17  ls
+   18  git@github.com:kek4et/PHYS1655-Class02.git
+   19  cd
+   20  ls
+   21  ls -a
+   22  nano .bashrc
+   23  source ~/.bashrc
+   24  cd
+   25  cd phys1655
+   26  ls
+   27  cd homework
+   28  mv homework hw
+   29  cd ..
+   30  mv homework hw
+   31  ls
+   32  cd hw
+   33  git clone git@github.com:PHYS1655Su26/hw01-<kek4et>.git
+   34  git@github.com:kek4et/PHYS-1655-HW01.git
+   35  git clone git@github.com:kek4et/PHYS-1655-HW01.git
+   36  ls
+   37  cd PHYS-1655-HW01
+   38  ls
+   39  ls -a
+   40  mkdir unixstuff
+   41  ls
+   42  cd unixstuff
+   43  ls
+   44  mkdir backups
+   45  ls
+   46  ls -a
+   47  cd .
+   48  cd ..
+   49  cd
+   50  pwd
+   51  pwd -P
+   52  ls
+   53  pwd
+   54  cd ondemand
+   55  ls
+   56  cd data
+   57  ls
+   58  cd sys
+   59  ls
+   60  cd dashboard
+   61  ls
+   62  cd batch_connect
+   63  ls
+   64  cd cache
+   65  ls
+   66  cd
+   67  ls unixstuff
+   68  cd phys1655
+   69  cd hw
+   70  ls
+   71  cd PHYS-1655-HW01
+   72  ls
+   73  ls unixstuff
+   74  ls backups
+   75  ls unixstuff/backups
+   76  ls /home/mst3k/unixstuff/backups
+   77  ls /home/kek4et/unixstuff/backups
+   78  ls /home/kek4et/phys1655/hw/PHYS-1655-HW01/unixstuff/backups
+   79  ls ~/unixstuff
+   80  ls
+   81  cd unixstuff
+   82  ls ~/unixstuff
+   83  cd
+   84  ls ~/unixstuff
+   85  cd phys1655
+   86  cd hw
+   87  cd PHYS-1655-HW01
+   88  ls ~/unixstuff
+   89  ls
+   90  cd unixstuff
+   91  ls ~/unixstuff
+   92  cd
+   93  ls ~
+   94  ls ~/..
+   95  ls
+   96  cd phys 1655
+   97  cd phys1655
+   98  cd hw
+   99  cd PHYS-1655-HW01
+  100  ls
+  101  cd unixstuff
+  102  ls
+  103  rm history_1.txt
+  104  grep p list1 | list2
+  105  grep p list1
+  106  grep p biglist
+  107  grep p biglist | sort > sorted_plist.txt
+  108  ls
+  109  cat sorted_plist.txt
+  110  ls list*
+  111  ls *list
+  112  ls ?list
+  113  ls -l
+  114  chmod go-rwx biglist
+  115  ls -l
+  116  chmod a+rw biglist
+  117  ls -l
+  118  cd ..
+  119  ls -l
+  120  chmod g+w science.txt
+  121  ls -l
+  122  ps -u kek4et
+  123  sleep 10
+  124  sleep 10 &
+  125  sleep 100
+  126  bg
+  127  jobs
+  128  fg %2
+  129  sleep 100 ^C
+  130  sleep 100
+  131  jobs
+  132  kill %1
+  133  jobs
+  134  sleep 100 &
+  135  jobs
+  136  kill %4
+  137  kill %1
+  138  jobs
+  139  sleep 100 &
+  140  ps
+  141  kill 231965
+  142  ps
+  143  ls
+  144  wc science.txt
+  145  wc -l science.txt
+  146  cd unixstuff
+  147  ls
+  148  diff list1 list2
+  149  find -science science.txt
+  150  find science science.txt
+  151  cd ..
+  152  du -s -h *
+  153  ls -l science.txt
+  154  gzip science.txt
+  155  ls -l science.txt
+  156  ls
+  157  gunzip science.txt.gz
+  158  ls
+  159  gzip science.txt
+  160  ls -l science.txt.gz
+  161  gunzip science.txt.gz
+  162  ls -l science.txt
+  163  file *
+  164  cd unixstuff
+  165  ls
+  166  nano history_2.txt
+  167  echo $SHELL
+  168  printenv | more
+  169  cd
+  170  cd phys1655
+  171  ls
+  172  mv envs.sh PHYS-1655-HW01
+  173  cd PHYS-1655-HW01
+  174  ls
+  175  mv PHYS-1655-HW01 envs.sh
+  176  ls
+  177  mv envs.sh hw
+  178  ls
+  179  cd hw
+  180  ls
+  181  mv envs.sh PHYS-1655-HW01
+  182  ls
+  183  cd PHYS-1655-HW01
+  184  ls
+  185  mv envs.sh unixstuff
+  186  ls
+  187  cd unixstuff
+  188  ls
+  189  cd ..
+  190  mv science.txt unixstuff
+  191  ls
+  192  cd unixstuff
+  193  source envs.sh
+  194  echo $ncpus
+  195  cd ..
+  196  history 100
+  197  history 200
+  198  ls
+  199  cd unixstuff
+  200  ls
+  201  nano history_2.txt
+  202  history 200 > history_3.txt
