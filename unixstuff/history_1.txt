@@ -1,0 +1,298 @@
+    1  nano .bashrc
+    2  source ~/.bashrc
+    3  git config --global user.name "Evan Cagnina"
+    4  git config --global user.email kek4et@virginia.edu
+    5  https://github.com/kek4et/PHYS1655-Class02.git
+    6  git config --global user.name kek4et
+    7  https://github.com/kek4et/PHYS1655-Class02.git
+    8  git@github.com:kek4et/PHYS1655-Class02.git
+    9  cd
+   10  pwd
+   11  cd 1655
+   12  ls
+   13  cd in_class
+   14  git@github.com:kek4et/PHYS1655-Class02.git
+   15  git@github.com:PHYS1655Su26/Class02.git
+   16  git@github.com:PHYS1655Su26/Class02-kek4et.git
+   17  ls
+   18  git@github.com:kek4et/PHYS1655-Class02.git
+   19  cd
+   20  ls
+   21  ls -a
+   22  nano .bashrc
+   23  source ~/.bashrc
+   24  cd
+   25  cd phys1655
+   26  ls
+   27  cd homework
+   28  mv homework hw
+   29  cd ..
+   30  mv homework hw
+   31  ls
+   32  cd hw
+   33  git clone git@github.com:PHYS1655Su26/hw01-<kek4et>.git
+   34  git@github.com:kek4et/PHYS-1655-HW01.git
+   35  git clone git@github.com:kek4et/PHYS-1655-HW01.git
+   36  ls
+   37  cd PHYS-1655-HW01
+   38  ls
+   39  ls -a
+   40  mkdir unixstuff
+   41  ls
+   42  cd unixstuff
+   43  ls
+   44  mkdir backups
+   45  ls
+   46  ls -a
+   47  cd .
+   48  cd ..
+   49  cd
+   50  pwd
+   51  pwd -P
+   52  ls
+   53  pwd
+   54  cd ondemand
+   55  ls
+   56  cd data
+   57  ls
+   58  cd sys
+   59  ls
+   60  cd dashboard
+   61  ls
+   62  cd batch_connect
+   63  ls
+   64  cd cache
+   65  ls
+   66  cd
+   67  ls unixstuff
+   68  cd phys1655
+   69  cd hw
+   70  ls
+   71  cd PHYS-1655-HW01
+   72  ls
+   73  ls unixstuff
+   74  ls backups
+   75  ls unixstuff/backups
+   76  ls /home/mst3k/unixstuff/backups
+   77  ls /home/kek4et/unixstuff/backups
+   78  ls /home/kek4et/phys1655/hw/PHYS-1655-HW01/unixstuff/backups
+   79  ls ~/unixstuff
+   80  ls
+   81  cd unixstuff
+   82  ls ~/unixstuff
+   83  cd
+   84  ls ~/unixstuff
+   85  cd phys1655
+   86  cd hw
+   87  cd PHYS-1655-HW01
+   88  ls ~/unixstuff
+   89  ls
+   90  cd unixstuff
+   91  ls ~/unixstuff
+   92  cd
+   93  ls ~
+   94  ls ~/..
+   95  ls
+   96  ls -a
+   97  cd phys1655
+   98  cd hw
+   99  cd PHYS-1655-HW01
+  100  cd unixstuff
+  101  ls
+  102  ls -a
+  103  cd .
+  104  cd ..
+  105  cd
+  106  pwd
+  107  pwd -P
+  108  ls
+  109  cd ondemand
+  110  ls
+  111  ls -a
+  112  cd data
+  113  ls
+  114  ls -a
+  115  cd sys
+  116  pwd
+  117  ls
+  118  cd dashboard
+  119  ls
+  120  cd batch_connect
+  121  ls
+  122  cd
+  123  cd phys1655
+  124  cd hw
+  125  cd PHYS-1655-HW01
+  126  cd unixstuff
+  127  ls unixstuff
+  128  ls backups
+  129  cd ..
+  130  ls unixstuff
+  131  ls backups
+  132  ls unixstuff/backups
+  133  ls ~/unixstuff
+  134  ls home/unixstuff
+  135  ls /home/unixstuff
+  136  ls ~
+  137  ls ~/..
+  138  ls
+  139  ls -a
+  140  cd unixstuff
+  141  la -a
+  142  ls -a
+  143  cd .
+  144  cd ..
+  145  cd
+  146  pwd
+  147  pwd -P
+  148  ls
+  149  cd ondemand
+  150  ls
+  151  cd data
+  152  ls
+  153  cd sys
+  154  ls 
+  155  cd dashboard
+  156  ls
+  157  cd batch_connect
+  158  ls
+  159  cd cache
+  160  ls
+  161  cd
+  162  cd phys1655
+  163  cd hw
+  164  cd PHYS-1655-HW01
+  165  cd unixstuff
+  166  ls unixstuff
+  167  cd
+  168  ls unixstuff
+  169  cd phys1655
+  170  cd hw
+  171  cd PHYS-1655-HW01
+  172  ls unixstuff
+  173  ls backups
+  174  ls unixstuff/backups
+  175  man wc
+  176  whatis wc
+  177  cd unixstuff
+  178  ls
+  179  mkdir file1
+  180  mkdir file2
+  181  ls
+  182  cd
+  183  cd phys1655
+  184  ls
+  185  mv science.txt hw/PHYS-1655-HW01
+  186  ls
+  187  cd hw
+  188  cd PHYS-1655-55-HW01
+  189  ls
+  190  cd PHYS-1655-HW01
+  191  ls
+  192  cp ../science.txt .
+  193  cd unixstuff
+  194  cp ../science.txt .
+  195  ls
+  196  cd backups
+  197  mkdir science.bak
+  198  cp ../science.txt science.bak
+  199  ls
+  200  cd science.bak
+  201  ls
+  202  cd backups
+  203  cd ..
+  204  ls
+  205  mv science.txt backups/.
+  206  ls
+  207  cd backups
+  208  ls
+  209  cd science.bak
+  210  ls
+  211  cd ..
+  212  ls
+  213  rm science.txt
+  214  ls
+  215  cd science.bak
+  216  ls
+  217  cd ..
+  218  ls
+  219  rmdir backups
+  220  rmdir file1
+  221  rm file2
+  222  rmdir file2
+  223  ls
+  224  mkdir tempstuff
+  225  ls
+  226  rmdir tempstuff
+  227  ls
+  228  cd backups
+  229  cd science.bak
+  230  ls
+  231  cat science.txt
+  232  head science.txt
+  233  head -5 science.txt
+  234  more science.txt
+  235  more science.txt/science
+  236  more science.txt
+  237* 
+  238  more science.txt
+  239  more science.txt/science
+  240  more science.txt /science
+  241  more science.txt science
+  242  grep science science.txt
+  243  grep Science science.txt
+  244  grep -i Science science.txt
+  245  wc -w science.txt
+  246  wc -l science.txt
+  247  cat
+  248  cat > list1
+  249  cat list1
+  250  cat > list2
+  251  cat >> list1
+  252  cat list1
+  253  ls
+  254  mv list1 unixstuff
+  255  mv list2 unixstuff
+  256  ls
+  257  cd backups
+  258  cd ..
+  259  ls
+  260  cd backups
+  261  ls
+  262  cd science.bak
+  263  ls
+  264  cd unixstuff
+  265  cat unixstuff
+  266  rm unixstuff
+  267  ls
+  268  cd ..
+  269  ls
+  270  cat > list1
+  271  cat list1
+  272  ls
+  273  cat > list2
+  274  cat list2
+  275  cat >> list1
+  276  cat list1
+  277  cat list1 list2 > biglist
+  278  ls
+  279  cat biglist
+  280  sort < biglist
+  281  sort < biglist > slist
+  282  ls
+  283  cat slits
+  284  cat slist
+  285  who
+  286  who > names.txt
+  287  ls
+  288  cat names.txt
+  289  rm names.txt
+  290  ls
+  291  who | sort
+  292  who | wc -l
+  293  grep --help
+  294  cat list1 | list2
+  295  history 100 > history_1.txt
+  296  ls
+  297  cat history_1.txt
+  298  history 300 > history_2.txt
